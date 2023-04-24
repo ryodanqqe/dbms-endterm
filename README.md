@@ -8,7 +8,7 @@
     Our goal is to create an accessible and simple system for stores in our country that specialize in online sales.
 
 ## Mentor👨‍🏫
-> - Azamat Serek - <azamat.serek@sdu.edu.kz>
+- Azamat Serek - <azamat.serek@sdu.edu.kz>
 
 ## Team members✍️️
 - 👩‍💻Dauletova Maira - 200103317@stu.sdu.edu.kz
@@ -19,5 +19,5 @@
 
 ## Presentation
 
-Link to [Presentation](https://www.canva.com/design/DAFhARqXsFk/kqsgzMfHXwN3aGsZB4lbLQ/edit?utm_content=DAFhARqXsFk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+    Link to [Presentation](https://www.canva.com/design/DAFhARqXsFk/kqsgzMfHXwN3aGsZB4lbLQ/edit?    utm_content=DAFhARqXsFk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
