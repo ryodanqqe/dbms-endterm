@@ -1,0 +1,44 @@
+--PROCEDURE
+CREATE OR REPLACE PROCEDURE UPDATE_PR_PRICE (
+   P_PR_ID IN NUMBER,
+   P_NEW_PRICE IN NUMBER
+) AS
+BEGIN
+   UPDATE PRODUCT_DETAIL
+   SET PR_PRICE = P_NEW_PRICE
+   WHERE PR_ID = P_PR_ID;
+
+   IF SQL%ROWCOUNT = 0 THEN
+      DBMS_OUTPUT.PUT_LINE('No item found with updated price or entered wrong Product ID' || P_PR_ID);
+   ELSE
+      DBMS_OUTPUT.PUT_LINE(SQL%ROWCOUNT || ' item(s) price updated');
+   END IF;
+END;
+
+--TESTING THE PROCEDURE
+DECLARE
+    P_PR_ID NUMBER := 54439;
+    P_NEW_PRICE NUMBER := '100';
+BEGIN
+    UPDATE_PR_PRICE(P_PR_ID, P_NEW_PRICE);
+END;
+
+--EXCEPTION
+CREATE OR REPLACE PACKAGE product_name_package AS
+  invalid_product_name EXCEPTION;
+END product_name_package;
+
+--MAIN BODY OF THE EXCEPTION
+CREATE OR REPLACE PROCEDURE add_product_name
+(PR_NAME IN VARCHAR2) AS
+BEGIN
+  IF LENGTH(PR_NAME) < 5 THEN
+    RAISE_APPLICATION_ERROR(-20001, 'Product name must be at least 5 characters long');
+  END IF;
+-- Rest of the code to add the item to the database
+END add_product_name;
+
+--TESTING THE EXCEPTION
+BEGIN
+  add_product_name('bn');
+END;
