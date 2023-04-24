@@ -1,6 +1,6 @@
- ![Документ](https://github.com/othneildrew/Best-README-Template/raw/master/images/logo.png )
+ # Online Shopping System    ![Документ](https://github.com/othneildrew/Best-README-Template/raw/master/images/logo.png )
 
-# Description of project
+# About The Project
 Our project is an online shopping system for clothes and accessories. 
 The shopping system covers only our country - Kazakhstan. 
 The service gives users the opportunity to order goods online, with subsequent delivery. 
