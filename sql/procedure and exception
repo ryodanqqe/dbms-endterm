@@ -42,3 +42,4 @@ END add_product_name;
 BEGIN
   add_product_name('bn');
 END;
+//
