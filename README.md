@@ -2,10 +2,10 @@
     Our project is an online shopping system for clothes and accessories. 
     The shopping system covers only our country - Kazakhstan. 
     The service gives users the opportunity to order goods online, with subsequent delivery. 
-    Users create their own profiles, and, accordingly, to order, they will need to fill in address and bank details.
+    Users create their own profiles, and accordingly, they will need to fill out address and bank details.
 
 ## Goal🎯
-    Our goal is to create an accessible and simple system for stores in our country that specialize in online sales.
+Our goal is to create an accessible and simple system for stores in our country that specialize in online sales.
 
 ## Mentor👨‍🏫
 - Azamat Serek - <azamat.serek@sdu.edu.kz>
