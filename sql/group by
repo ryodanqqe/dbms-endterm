@@ -1,1 +1,37 @@
 
+CREATE OR REPLACE PROCEDURE group_customers_by_city AS
+BEGIN
+  SELECT COUNT(*), city
+  FROM address
+  GROUP BY city;
+END;
+//
+//
+
+Procedure to group orders by pr_id and calculate the max total amount for each product	
+CREATE OR REPLACE PROCEDURE group_orders_by_basket AS
+BEGIN
+  SELECT basket_id, Max(total_amount), pr_price, pr_quantity
+  FROM basket
+  GROUP BY pr_id
+END;
+
+//	
+
+CREATE OR REPLACE PROCEDURE group_orders_by_avg_pr_id AS
+BEGIN
+  SELECT  pr_id, AVG(total_amount)
+  FROM basket
+  GROUP BY pr_id
+END;	
+
+Procedure to group order_items by product and calculate the total quantity and revenue for each product
+
+CREATE OR REPLACE PROCEDURE group_order_items_by_product AS
+BEGIN
+  SELECT SUM(quantity), SUM(quantity * Product.pr_price), Product.product_name
+  FROM basket
+  JOIN product ON basket.pr_id = product.pr_id
+  GROUP BY pr_id;
+END;
+/
