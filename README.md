@@ -1,4 +1,4 @@
- # Online Shopping System    ![Документ](https://github.com/othneildrew/Best-README-Template/raw/master/images/logo.png )
+ # ![Документ](https://github.com/othneildrew/Best-README-Template/raw/master/images/logo.png)  Online Shopping System
 
 # About The Project
 Our project is an online shopping system for clothes and accessories. 
