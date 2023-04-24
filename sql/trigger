@@ -1,8 +1,8 @@
-CREATE TRIGGER numofp
+CREATE TRIGGER numofpr
 BEFORE INSERT ON products 
 FOR EACH ROW 
 BEGIN 
     DECLARE row_count INT; 
     SELECT COUNT(*) INTO row_count FROM products; 
     SELECT CONCAT('Current number of rows: ', row_count) AS ;message; 
-END;
+end;
