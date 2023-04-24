@@ -1,8 +1,8 @@
 ## Description of project
-    Our project is an online shopping system for clothes and accessories. 
-    The shopping system covers only our country - Kazakhstan. 
-    The service gives users the opportunity to order goods online, with subsequent delivery. 
-    Users create their own profiles, and accordingly, they will need to fill out address and bank details.
+Our project is an online shopping system for clothes and accessories. 
+The shopping system covers only our country - Kazakhstan. 
+The service gives users the opportunity to order goods online, with subsequent delivery. 
+Users create their own profiles, and accordingly, they will need to fill out address and bank details.
 
 ## Mentor👨‍🏫
 - Azamat Serek - <azamat.serek@sdu.edu.kz>
